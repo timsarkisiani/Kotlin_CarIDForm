@@ -11,69 +11,89 @@
         android:id="@+id/gamokitxva"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="0dp"
         android:text="გამოკითხვა"
-        android:layout_marginTop="70sp"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="24sp"
-        />
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/kitxva1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/gamokitxva"
+        android:layout_marginTop="69dp"
         android:text="1. გაქვთ თუ არა გადატანილი COVID-19?"
-        android:layout_marginTop="250sp"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="15sp"
-        />
+        android:textSize="15sp" />
 
-    <Button
+    <CheckBox
         android:id="@+id/ki1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="40sp"
-        android:layout_marginTop="280sp"
+        android:layout_below="@+id/kitxva1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="33dp"
         android:backgroundTint="#610B0B"
-        android:text="კი" />
+        android:text="კი"
+        android:textColor="@color/white" />
 
-    <Button
+    <CheckBox
         android:id="@+id/ara1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="280sp"
+        android:layout_below="@+id/kitxva1"
+        android:layout_alignParentEnd="true"
         android:layout_marginLeft="270sp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="67dp"
         android:backgroundTint="#610B0B"
-        android:text="არა" />
+        android:text="არა"
+        android:textColor="@color/white" />
 
     <TextView
         android:id="@+id/kitxva2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="350sp"
+        android:layout_below="@+id/kitxva1"
+        android:layout_marginTop="123dp"
         android:text="2. ხართ თუ არა ვაქცინირებული?"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="15sp" />
 
-    <Button
+    <CheckBox
         android:id="@+id/ki2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/kitxva2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67sp"
+        android:layout_marginTop="33dp"
         android:backgroundTint="#610B0B"
-        android:layout_marginTop="380sp"
-        android:layout_marginLeft="40sp"
-        android:text="კი" />
+        android:text="კი"
+        android:textColor="@color/white" />
 
-    <Button
+    <CheckBox
         android:id="@+id/ara2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="380sp"
+        android:layout_below="@+id/kitxva2"
+        android:layout_alignParentEnd="true"
         android:layout_marginLeft="270sp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="67dp"
         android:backgroundTint="#610B0B"
-        android:text="არა" />
+        android:text="არა"
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/gagzavna"
@@ -81,8 +101,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_marginHorizontal="100dp"
-        android:layout_marginTop="500dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
         android:backgroundTint="#870F0F"
         android:text="გაგზავნა" />
 
